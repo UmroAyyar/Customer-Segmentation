@@ -1,2 +1,6 @@
 # Customer-Segmentation
-Customer Segmentation: Take user survey data from potential boat buyers, use factorization and clustering to produce clusters, and then make market segments complete with marketing recommendations. All are compiled as a report.
+Customer Segmentation: I use real data from a survey shared with prospective boat buyers by INSEAD to build Ideal customer profiles. I use Principle Component Analysis and K-Means Clustering to identify the various types of customers, the ideal price points for each of them and what are the product features that work best for each type. The intel can be used by both product and marketing teams to create products and campaigns ideal for certain buyer types. 
+
+Code for factor analysis and market segmentation could be found in the ipynb file attached. 
+The initial step involves conducting Exploratory Data Analysis (EDA) to ensure data integrity and consistency across all responses. Of particular importance is verifying that all 2813 respondents have provided answers for each question in the survey. During this process, one outlier observation was identified and subsequently removed from the Boat dataset. This outlier pertained to a customer preference for a boat length of 325 feet, notably exceeding the lengths indicated by other respondents. Its substantial deviation from the dataset's distribution, even surpassing the second-highest preference by over 100 feet, deemed it an anomaly warranting exclusion.
+
